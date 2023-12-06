@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T21:10:13.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qxPJpy8hkKD0qBZmt7eA" version="22.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-06T21:10:22.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CIUnfrGjfdaZN4Fj4vJu" version="22.1.5" type="github" pages="3">
   <diagram name="diagram profili" id="xnTz1qQAvWEni8UB2f_R">
     <mxGraphModel dx="3795" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -413,15 +413,6 @@
         </mxCell>
         <mxCell id="m6IEWkl3XsS2zVE6BU3T-64" value="Software package" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2180" y="-917" width="110" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="WskCslID6tYvBAGryMp--3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-1330" y="-520" width="220" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="WskCslID6tYvBAGryMp--1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="WskCslID6tYvBAGryMp--3">
-          <mxGeometry x="-10" y="60" width="220" height="125.6" as="geometry" />
-        </mxCell>
-        <mxCell id="WskCslID6tYvBAGryMp--2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="WskCslID6tYvBAGryMp--3">
-          <mxGeometry y="10" width="100" height="24.4" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

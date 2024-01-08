@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T14:05:56.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yYzeLWPMPlvZootZqzbs" version="22.1.17" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-08T14:07:30.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3tGuQvhKSHY63EpaOSwO" version="22.1.17" type="github" pages="6">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="2074" dy="2338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -996,7 +996,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2mY_eCErI83KwT0ppQRX" name="timing Diagram">
-    <mxGraphModel dx="7144" dy="3488" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1274" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3105,7 +3105,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4yy-b3c1k4-ROFWKV3ur" name="component diagram">
-    <mxGraphModel dx="6901" dy="3332" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7274" dy="3538" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3268,21 +3268,21 @@
         <mxCell id="o3u0ZAKiSyRcr2bnDPXn-63" value="" style="shape=requiredInterface;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" parent="jqN858YSGXjudDvLZie--63" vertex="1">
           <mxGeometry x="364" y="180" width="5" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="miJut3Ubxe00QhaqOZCo-1" value="" style="html=1;rounded=0;" vertex="1" parent="jqN858YSGXjudDvLZie--63">
+        <mxCell id="miJut3Ubxe00QhaqOZCo-1" value="" style="html=1;rounded=0;" parent="jqN858YSGXjudDvLZie--63" vertex="1">
           <mxGeometry x="294" y="258" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="miJut3Ubxe00QhaqOZCo-2" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;" edge="1" parent="jqN858YSGXjudDvLZie--63" source="miJut3Ubxe00QhaqOZCo-1" target="miJut3Ubxe00QhaqOZCo-4">
+        <mxCell id="miJut3Ubxe00QhaqOZCo-2" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;" parent="jqN858YSGXjudDvLZie--63" source="miJut3Ubxe00QhaqOZCo-1" target="miJut3Ubxe00QhaqOZCo-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="394" y="273" as="targetPoint" />
             <mxPoint x="324" y="273" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="miJut3Ubxe00QhaqOZCo-3" value="sugestie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="miJut3Ubxe00QhaqOZCo-2">
+        <mxCell id="miJut3Ubxe00QhaqOZCo-3" value="sugestie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="miJut3Ubxe00QhaqOZCo-2" vertex="1" connectable="0">
           <mxGeometry x="0.3214" y="3" relative="1" as="geometry">
             <mxPoint x="8" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="miJut3Ubxe00QhaqOZCo-4" value="" style="shape=requiredInterface;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" vertex="1" parent="jqN858YSGXjudDvLZie--63">
+        <mxCell id="miJut3Ubxe00QhaqOZCo-4" value="" style="shape=requiredInterface;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" parent="jqN858YSGXjudDvLZie--63" vertex="1">
           <mxGeometry x="365" y="268" width="5" height="10" as="geometry" />
         </mxCell>
         <mxCell id="jqN858YSGXjudDvLZie--74" value="CD: komponent obsługi i sprawdzanie aktualnego stanu technicznego autobusów" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=250;height=50;" parent="1" vertex="1">
@@ -7488,7 +7488,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="a6RP9atsSTx0-ovkpACS" name="diagram klass">
-    <mxGraphModel dx="1674" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

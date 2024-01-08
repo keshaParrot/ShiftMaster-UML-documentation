@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T12:49:30.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Mcd2RdQxyp2OPX8w-VAu" version="22.1.17" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-08T14:05:56.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yYzeLWPMPlvZootZqzbs" version="22.1.17" type="github" pages="6">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="2074" dy="2338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -603,7 +603,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="diagram profili" id="xnTz1qQAvWEni8UB2f_R">
-    <mxGraphModel dx="4049" dy="2654" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3674" dy="2338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Фон" parent="0" />
@@ -7487,16 +7487,16 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="o7K5dLYGhnCcQhvrCRS1" name="diagram obiektow">
-    <mxGraphModel dx="1674" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="a6RP9atsSTx0-ovkpACS" name="diagram klass">
+    <mxGraphModel dx="1674" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="a6RP9atsSTx0-ovkpACS" name="diagram klass">
-    <mxGraphModel dx="1674" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="o7K5dLYGhnCcQhvrCRS1" name="diagram obiektow">
+    <mxGraphModel dx="1674" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

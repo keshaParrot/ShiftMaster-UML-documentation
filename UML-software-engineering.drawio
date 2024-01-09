@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T18:54:20.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="z9w_xflCIGB9JoJ3kyo9" version="22.1.17" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-09T19:09:55.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="oXXi9hmc2RQHy8A4mfjV" version="22.1.17" type="github" pages="6">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="1834" dy="2338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -603,7 +603,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="diagram profili" id="xnTz1qQAvWEni8UB2f_R">
-    <mxGraphModel dx="3434" dy="2338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4049" dy="2654" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Фон" parent="0" />
@@ -996,7 +996,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2mY_eCErI83KwT0ppQRX" name="timing Diagram">
-    <mxGraphModel dx="2207" dy="1742" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6756,7 +6756,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LFtvoy_kzWwkK_lsww9v-184" value="CD: diagram komponentów calego programu" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=210;height=40;" parent="1" vertex="1">
+        <mxCell id="LFtvoy_kzWwkK_lsww9v-184" value="CD: powiązane komponenty&lt;br&gt;&amp;nbsp;calego programu między sobą" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=210;height=40;" parent="1" vertex="1">
           <mxGeometry x="-450" y="-2230" width="1420" height="630" as="geometry" />
         </mxCell>
         <mxCell id="LFtvoy_kzWwkK_lsww9v-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="LFtvoy_kzWwkK_lsww9v-184" vertex="1">

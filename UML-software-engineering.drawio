@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T23:53:49.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cMs69T2uevqW00sBEamO" version="22.1.17" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-09T23:54:08.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mcH1Ng3rGjpPOCwQ-OKk" version="22.1.17" type="github" pages="6">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="1834" dy="2338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7468,22 +7468,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="a6RP9atsSTx0-ovkpACS" name="diagram klass">
-    <mxGraphModel dx="7995" dy="4615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9190" dy="5230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7knASAU0G7o8DNDAyNPh-1" value="класа водія&lt;br&gt;класа диспетчера&lt;br&gt;класа кшеньговощі" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-395" y="-77" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7knASAU0G7o8DNDAyNPh-2" value="інтерфейс дії" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-260" y="-132" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7knASAU0G7o8DNDAyNPh-3" value="абстрактна класа емплоуи" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-465" y="-132" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dUhCUkiQPDObLcvVVmPo-2" value="програма на сервері&lt;br&gt;програма для ужитку&lt;br&gt;програма для менеджменту&lt;br&gt;^для диспозитора&lt;br&gt;^для кшеньговощі&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-370" y="-322" width="180" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="Ck92aejPC-sHQ0AyfM2W-61" value="KD: UI kierowcy" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=180;height=38;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-2710" width="260" height="410" as="geometry" />
         </mxCell>
@@ -7632,9 +7620,6 @@
         </mxCell>
         <mxCell id="Hhqpe-2Wm4GSYrYXLh4G-6" value="+ getWorkedShift(int:Year,month,day, BusDriver: driver): Shift" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Hhqpe-2Wm4GSYrYXLh4G-1">
           <mxGeometry y="112" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Ck92aejPC-sHQ0AyfM2W-63" value="KD: UI księgowośći" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=180;height=38;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="22" width="340" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Ck92aejPC-sHQ0AyfM2W-64" value="KD: serwera" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=180;height=38;" parent="1" vertex="1">
           <mxGeometry x="-160" y="-3400" width="1110" height="610" as="geometry" />

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T13:40:58.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LOckFR4G5a8Bi8L9IfbQ" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-10T13:57:22.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="QssmhHt55qSaCOxehzo4" version="22.1.18" type="github" pages="6">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="1834" dy="2338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7468,7 +7468,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="a6RP9atsSTx0-ovkpACS" name="diagram klass">
-    <mxGraphModel dx="7789" dy="4509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8234" dy="4738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7961,6 +7961,303 @@
         </mxCell>
         <mxCell id="9mlU8V_OXwN_ec1kopkD-6" value="+ (): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9mlU8V_OXwN_ec1kopkD-1">
           <mxGeometry y="64" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-4" value="KD: serwera" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=180;height=38;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="-3450" width="1050" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-5" value="DataBaseManagementSystem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="800" y="212.01000000000002" width="230" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-5">
+          <mxGeometry y="26" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-7" value="+ checkBusLastUpdateDay(): Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-5">
+          <mxGeometry y="34" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-8" value="+ getBusDriverList(): List&amp;lt;BusDriver&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-5">
+          <mxGeometry y="60" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-9" value="+ getBusList(): List&amp;lt;Bus&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-5">
+          <mxGeometry y="86" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-10" value="+ saveShiftToDatabase(Shift: shift):&amp;nbsp;&lt;br&gt;boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-5">
+          <mxGeometry y="112" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-11" value="+ getBusList(): List&amp;lt;Bus&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-5">
+          <mxGeometry y="152" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-12" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;IStation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="30" y="68.51" width="160" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-13" value="- stationNumber: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-12">
+          <mxGeometry y="30" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-14" value="- stationTime:&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-12">
+          <mxGeometry y="56" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-15" value="- Name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-12">
+          <mxGeometry y="82" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-12">
+          <mxGeometry y="108" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-17" value="+ getStationNumber(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-12">
+          <mxGeometry y="116" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-18" value="+ getStationTime():&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-12">
+          <mxGeometry y="142" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-19" value="+ getStationName(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-12">
+          <mxGeometry y="168" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-20" value="&lt;i&gt;Employee&lt;/i&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="550" y="170.01000000000002" width="140" height="208" as="geometry">
+            <mxRectangle x="-40" y="-285" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-21" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# id: int&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-20">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-22" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# fisrtName: String&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-20">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-23" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# lastName: String&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-20">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-24" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# age: int&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-20">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-25" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# PESEL: String&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-20">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-26" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# phoneNumber: String&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-20">
+          <mxGeometry y="156" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-27" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;# rate: Double&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-20">
+          <mxGeometry y="182" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-28" value="BusDriver" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="540" y="30.009999999999998" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-29" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;- driverLicense: String&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-28">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-30" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- workExperience: int&lt;/span&gt;&lt;br&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-28">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-31" value="&amp;nbsp;- dateOfDeployment: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-28">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-32" value="Bus" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="550" y="420.01000000000005" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-33" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;- driverLicense: String&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-32">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-34" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;- workExperience: int&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-32">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-35" value="- dateOfDeployment: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-32">
+          <mxGeometry y="78" width="140" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-36" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;Shift" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="210" y="58.51" width="260" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-37" value="- id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-36">
+          <mxGeometry y="40" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-38" value="- Employee: employee" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-36">
+          <mxGeometry y="66" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-40" value="- startTime:&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-36">
+          <mxGeometry y="92" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-41" value="- endTime:&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-36">
+          <mxGeometry y="118" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-36">
+          <mxGeometry y="144" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-44" value="+ changeStartTime(String: termin): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-36">
+          <mxGeometry y="152" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-88" value="+changeEmployee(Employee:newEmployee): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-36">
+          <mxGeometry y="178" width="260" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-45" value="+ changeEndTime(String: termin): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-36">
+          <mxGeometry y="220" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-48" value="" style="endArrow=blockThin;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;endFill=0;" edge="1" parent="NZNeDDeuytosNzmhGM4m-4" source="NZNeDDeuytosNzmhGM4m-28" target="NZNeDDeuytosNzmhGM4m-20">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="563" y="340.01000000000005" as="sourcePoint" />
+            <mxPoint x="723" y="340.01000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-49" value="" style="endArrow=blockThin;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;endFill=0;" edge="1" parent="NZNeDDeuytosNzmhGM4m-4" source="NZNeDDeuytosNzmhGM4m-32" target="NZNeDDeuytosNzmhGM4m-20">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="620" y="470.01000000000005" as="sourcePoint" />
+            <mxPoint x="470" y="344.01000000000005" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-50" value="" style="endArrow=none;html=1;endSize=29;startArrow=diamondThin;startSize=25;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;endFill=0;" edge="1" parent="NZNeDDeuytosNzmhGM4m-4" source="NZNeDDeuytosNzmhGM4m-70" target="NZNeDDeuytosNzmhGM4m-12">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="-90" y="304.01000000000005" as="sourcePoint" />
+            <mxPoint x="-1048.5" y="254.01000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-51" value="" style="endArrow=diamondThin;html=1;endSize=25;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;endFill=0;" edge="1" parent="NZNeDDeuytosNzmhGM4m-4" source="NZNeDDeuytosNzmhGM4m-28" target="NZNeDDeuytosNzmhGM4m-5">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="780" y="10.010000000000002" as="sourcePoint" />
+            <mxPoint x="710" y="310.01000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="90" />
+              <mxPoint x="740" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-52" value="" style="endArrow=diamondThin;html=1;endSize=25;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;endFill=0;jumpSize=6;" edge="1" parent="NZNeDDeuytosNzmhGM4m-4" source="NZNeDDeuytosNzmhGM4m-32" target="NZNeDDeuytosNzmhGM4m-5">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="755" y="520.01" as="sourcePoint" />
+            <mxPoint x="820" y="344.01000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="490" />
+              <mxPoint x="740" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-53" value="" style="endArrow=classic;html=1;endSize=8;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=1;dashed=1;" edge="1" parent="NZNeDDeuytosNzmhGM4m-4" source="NZNeDDeuytosNzmhGM4m-36" target="NZNeDDeuytosNzmhGM4m-5">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="1060" y="339.01000000000005" as="sourcePoint" />
+            <mxPoint x="1040" y="324.01000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="10.010000000000002" />
+              <mxPoint x="920" y="10.010000000000002" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-54" value="" style="endArrow=classic;html=1;endSize=7;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;endFill=1;dashed=1;" edge="1" parent="NZNeDDeuytosNzmhGM4m-4" source="NZNeDDeuytosNzmhGM4m-32" target="NZNeDDeuytosNzmhGM4m-70">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="700" y="490.01000000000005" as="sourcePoint" />
+            <mxPoint x="820" y="355.01000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="508.51000000000005" />
+              <mxPoint x="540" y="508.51000000000005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-55" value="" style="endArrow=diamondThin;html=1;endSize=25;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;endFill=0;" edge="1" parent="NZNeDDeuytosNzmhGM4m-4" source="NZNeDDeuytosNzmhGM4m-28" target="NZNeDDeuytosNzmhGM4m-70">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="710" y="100.00999999999999" as="sourcePoint" />
+            <mxPoint x="820" y="281.01000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="82" />
+              <mxPoint x="530" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-56" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;perimeterSpacing=2;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="140" y="420.01000000000005" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-57" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;perimeterSpacing=2;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="350" y="481.51000000000005" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-58" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;perimeterSpacing=2;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="340" y="428" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-59" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;perimeterSpacing=2;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="683" y="472.01000000000005" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-60" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="517" y="56.999999999999986" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-61" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="890" y="170.01000000000002" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-62" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;perimeterSpacing=2;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="325" y="39.960000000000015" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-63" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="749" y="232.51000000000002" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="689" y="296.00857142857154" as="sourcePoint" />
+            <mxPoint x="799" y="296.9800000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-70" value="DiverShift" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=24;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="160" y="378.01000000000005" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-39" value="- bus: Bus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-70">
+          <mxGeometry y="24" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-42" value="- Route: List&amp;lt;station&amp;gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-70">
+          <mxGeometry y="50" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-74" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-70">
+          <mxGeometry y="76" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-47" value="+ changeRoute(type): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-70">
+          <mxGeometry y="84" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-78" value="EmployeeShift" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=24;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="350" y="378.01000000000005" width="170" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-82" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-78">
+          <mxGeometry y="24" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-65" value="2..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="130" y="260.00000000000006" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-66" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="522" y="481.51000000000005" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-86" value="" style="endArrow=blockThin;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;endFill=0;dashed=1;dashPattern=8 8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="NZNeDDeuytosNzmhGM4m-4" source="NZNeDDeuytosNzmhGM4m-78" target="NZNeDDeuytosNzmhGM4m-36">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="-30" y="265.01000000000005" as="sourcePoint" />
+            <mxPoint x="80" y="170.01000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="435" y="330" />
+              <mxPoint x="340" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-87" value="" style="endArrow=blockThin;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="NZNeDDeuytosNzmhGM4m-4" source="NZNeDDeuytosNzmhGM4m-70" target="NZNeDDeuytosNzmhGM4m-36">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="224" y="265.01000000000005" as="sourcePoint" />
+            <mxPoint x="80" y="170.01000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="378" />
+              <mxPoint x="260" y="330" />
+              <mxPoint x="340" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-67" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;perimeterSpacing=2;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="690" y="69.95999999999978" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-68" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="683" y="272.0099999999998" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-89" value="conctereStation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=24;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
+          <mxGeometry x="5" y="313" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-90" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-89">
+          <mxGeometry y="24" width="120" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NZNeDDeuytosNzmhGM4m-91" value="" style="endArrow=blockThin;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="NZNeDDeuytosNzmhGM4m-4" source="NZNeDDeuytosNzmhGM4m-89" target="NZNeDDeuytosNzmhGM4m-12">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="260" y="388" as="sourcePoint" />
+            <mxPoint x="350" y="315" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="65" y="277" />
+              <mxPoint x="65" y="277" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

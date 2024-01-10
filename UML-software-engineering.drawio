@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T12:51:58.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5f4T5WLmmhXC_g7zznKh" version="22.1.17" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-10T12:54:11.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Jr1fm4Tfw2X9aQFUDxOf" version="22.1.17" type="github" pages="6">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="1834" dy="2338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7526,7 +7526,7 @@
           <mxGeometry y="112" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ck92aejPC-sHQ0AyfM2W-62" value="&lt;b&gt;class&lt;/b&gt;: programu stacjonarnego" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=180;height=38;" parent="1" vertex="1">
-          <mxGeometry x="370" y="-2750" width="600" height="650" as="geometry" />
+          <mxGeometry x="350" y="-2790" width="600" height="650" as="geometry" />
         </mxCell>
         <mxCell id="Ck92aejPC-sHQ0AyfM2W-66" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;UI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Ck92aejPC-sHQ0AyfM2W-62" vertex="1">
           <mxGeometry x="110" y="90" width="240" height="202" as="geometry" />
@@ -7930,7 +7930,7 @@
           <mxGeometry x="-1840" y="-3237" width="440" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Hhqpe-2Wm4GSYrYXLh4G-23" value="&lt;b&gt;class&lt;/b&gt;: bus Hardware" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=150;height=40;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="-2760" width="660" height="320" as="geometry" />
+          <mxGeometry x="-330" y="-2790" width="660" height="320" as="geometry" />
         </mxCell>
         <mxCell id="Hhqpe-2Wm4GSYrYXLh4G-24" value="2..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry y="-3134" width="40" height="30" as="geometry" />

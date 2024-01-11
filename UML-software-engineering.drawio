@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-11T00:45:12.469Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rbkxOE5atVinxfqDOlHJ" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-11T00:49:26.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LY8ZGaJpGoqBz3ZqF-JT" version="22.1.18" type="github" pages="6">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="1595" dy="2215" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7466,7 +7466,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="a6RP9atsSTx0-ovkpACS" name="diagram klass">
-    <mxGraphModel dx="7995" dy="4615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7597" dy="4410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7936,7 +7936,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NZNeDDeuytosNzmhGM4m-70" value="DiverShift" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=24;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="NZNeDDeuytosNzmhGM4m-4" vertex="1">
-          <mxGeometry x="165" y="388.0100000000002" width="180" height="110" as="geometry" />
+          <mxGeometry x="165" y="378.0100000000002" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="NZNeDDeuytosNzmhGM4m-39" value="- bus: Bus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NZNeDDeuytosNzmhGM4m-70" vertex="1">
           <mxGeometry y="24" width="180" height="26" as="geometry" />
@@ -7947,8 +7947,8 @@
         <mxCell id="NZNeDDeuytosNzmhGM4m-74" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="NZNeDDeuytosNzmhGM4m-70" vertex="1">
           <mxGeometry y="76" width="180" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="NZNeDDeuytosNzmhGM4m-47" value="+ changeRoute(type): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NZNeDDeuytosNzmhGM4m-70" vertex="1">
-          <mxGeometry y="84" width="180" height="26" as="geometry" />
+        <mxCell id="NZNeDDeuytosNzmhGM4m-47" value="+ changeRoute(String: Route): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NZNeDDeuytosNzmhGM4m-70" vertex="1">
+          <mxGeometry y="84" width="180" height="36" as="geometry" />
         </mxCell>
         <mxCell id="NZNeDDeuytosNzmhGM4m-78" value="EmployeeShift" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=24;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="NZNeDDeuytosNzmhGM4m-4" vertex="1">
           <mxGeometry x="355" y="388.0100000000002" width="170" height="32" as="geometry" />
@@ -7977,8 +7977,7 @@
             <mxPoint x="229" y="275.0100000000002" as="sourcePoint" />
             <mxPoint x="85" y="180.01000000000022" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="265" y="388" />
-              <mxPoint x="265" y="340" />
+              <mxPoint x="255" y="340" />
               <mxPoint x="345" y="340" />
             </Array>
           </mxGeometry>

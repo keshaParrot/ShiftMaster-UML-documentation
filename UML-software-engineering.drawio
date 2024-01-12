@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T01:09:40.337Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="eDMxoTqDx5AngUkklhdj" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-12T09:51:09.098Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="euNhvSMf9S54jiisJG9r" version="22.1.18" type="github" pages="6">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="4287" dy="4060" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7466,7 +7466,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="a6RP9atsSTx0-ovkpACS" name="diagram klass">
-    <mxGraphModel dx="5136" dy="4868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5551" dy="5054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7925,7 +7925,7 @@
           <mxGeometry x="330" y="49.960000000000036" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NZNeDDeuytosNzmhGM4m-63" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="NZNeDDeuytosNzmhGM4m-4" vertex="1">
-          <mxGeometry x="872" y="242.51000000000022" width="30" height="30" as="geometry" />
+          <mxGeometry x="893" y="238.51000000000022" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NZNeDDeuytosNzmhGM4m-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="NZNeDDeuytosNzmhGM4m-4" edge="1" source="NZNeDDeuytosNzmhGM4m-20">
           <mxGeometry relative="1" as="geometry">
@@ -8036,6 +8036,9 @@
         </mxCell>
         <mxCell id="qWh2cxSgx9JIXaPBJle4-1" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NZNeDDeuytosNzmhGM4m-4">
           <mxGeometry x="893" y="284.50999999999976" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_DFMdiI5NBtfU4YkX94w-1" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="763" y="-3154.0000000000005" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

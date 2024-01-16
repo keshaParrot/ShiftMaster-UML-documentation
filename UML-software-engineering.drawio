@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T15:34:32.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9WzYg3LPQHuYukyWCOMJ" version="22.1.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-16T14:57:42.268Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NKdOPhR6-4FmlQrAR2gM" version="22.1.18" type="github" pages="7">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="474" dy="2338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -994,7 +994,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2mY_eCErI83KwT0ppQRX" name="timing Diagram">
-    <mxGraphModel dx="312" dy="1136" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1380" dy="2240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1011,10 +1011,10 @@
           <mxGeometry x="657" y="98" width="760" height="190" as="geometry" />
         </mxCell>
         <mxCell id="D9tHfNVKwwE4j4deW7R9-45" value="&lt;b&gt;Timing diagram&lt;/b&gt; : System automatycznego tworzenia grafiku" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=230;height=41;" parent="1" vertex="1">
-          <mxGeometry x="637" y="38" width="800" height="590" as="geometry" />
+          <mxGeometry x="637" y="38" width="800" height="622" as="geometry" />
         </mxCell>
         <mxCell id="D9tHfNVKwwE4j4deW7R9-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="657" y="288" width="760" height="320" as="geometry" />
+          <mxGeometry x="657" y="288" width="760" height="332" as="geometry" />
         </mxCell>
         <mxCell id="D9tHfNVKwwE4j4deW7R9-50" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Timing diagram&lt;/b&gt;: grafik komunikatow miedzy grafikami" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=170;height=50;" parent="1" vertex="1">
           <mxGeometry x="2434" y="43" width="800" height="850" as="geometry" />
@@ -3098,6 +3098,21 @@
             <mxPoint x="1680" y="1552.86" as="sourcePoint" />
             <mxPoint x="2140.6060606060605" y="1553" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nbv5jlTa_EE5wEzJznJK-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="642.9981632653062" as="sourcePoint" />
+            <mxPoint x="840" y="602.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbv5jlTa_EE5wEzJznJK-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="639.9981632653062" as="sourcePoint" />
+            <mxPoint x="800" y="599.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbv5jlTa_EE5wEzJznJK-3" value="kroki" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="737" y="613" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

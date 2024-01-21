@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T17:01:06.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XxTUXJhcKzoB8YQnrgoW" version="22.1.21" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-21T19:49:24.584Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5snA7cadsOX4rBcCh5rT" version="22.1.21" type="github" pages="7">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="168" dy="3072" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -601,7 +601,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="diagram profili" id="xnTz1qQAvWEni8UB2f_R">
-    <mxGraphModel dx="6703" dy="2909" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4054" dy="2903" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Фон" parent="0" />
@@ -3103,7 +3103,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4yy-b3c1k4-ROFWKV3ur" name="component diagram">
-    <mxGraphModel dx="4573" dy="3575" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4637" dy="3575" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10353,7 +10353,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o7K5dLYGhnCcQhvrCRS1" name="diagram obiektow">
-    <mxGraphModel dx="3193" dy="2771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2227" dy="3051" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11514,18 +11514,40 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5BP24uvizFS6SdMH8Nuc" name="diagram deployment">
-    <mxGraphModel dx="712" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1027" dy="1051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="O93jGFc5OnBrRyhvi1g5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0EqTJP3xsmoxcGYrXIZT-2" target="0EqTJP3xsmoxcGYrXIZT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0EqTJP3xsmoxcGYrXIZT-2" value="&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;br&gt;urzadzenie&lt;br&gt;komrkowe" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="340" width="120" height="80" as="geometry" />
+          <mxGeometry x="140" y="320" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0EqTJP3xsmoxcGYrXIZT-3" value="&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;serwer" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="340" width="120" height="80" as="geometry" />
+          <mxGeometry x="340" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O93jGFc5OnBrRyhvi1g5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0EqTJP3xsmoxcGYrXIZT-4" target="0EqTJP3xsmoxcGYrXIZT-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0EqTJP3xsmoxcGYrXIZT-4" value="&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;br&gt;stacja robocza" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="460" width="120" height="80" as="geometry" />
+          <mxGeometry x="340" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O93jGFc5OnBrRyhvi1g5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O93jGFc5OnBrRyhvi1g5-1" target="0EqTJP3xsmoxcGYrXIZT-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O93jGFc5OnBrRyhvi1g5-1" value="&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;br&gt;sprzęt autobusu" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O93jGFc5OnBrRyhvi1g5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O93jGFc5OnBrRyhvi1g5-6" target="0EqTJP3xsmoxcGYrXIZT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O93jGFc5OnBrRyhvi1g5-6" value="&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;жоскі диски" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

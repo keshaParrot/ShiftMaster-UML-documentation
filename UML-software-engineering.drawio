@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T15:38:57.770Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NpU83RxMp-k8afdqMQdv" version="22.1.21" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-21T16:09:45.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="e9lFPfhXUASbdj8kwwtw" version="22.1.21" type="github" pages="7">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="168" dy="3072" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10353,7 +10353,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o7K5dLYGhnCcQhvrCRS1" name="diagram obiektow">
-    <mxGraphModel dx="2363" dy="2450" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3193" dy="2771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10361,7 +10361,7 @@
           <mxGeometry x="2485" y="-1207" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oPLp4W5H155VG4U1AXMo-6" value="&lt;b&gt;Object diagram:&amp;nbsp;&lt;/b&gt;scenariusz dodawania nowego pracownika" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=200;height=40;" parent="1" vertex="1">
-          <mxGeometry x="-1080" y="-1675" width="550" height="430" as="geometry" />
+          <mxGeometry x="-1180" y="-1675" width="550" height="430" as="geometry" />
         </mxCell>
         <mxCell id="IpTN0ArYY8duDeKAY7Ix-232" value=": SerwerAPI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=17;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPLp4W5H155VG4U1AXMo-6">
           <mxGeometry x="10" y="148" width="210" height="37.5" as="geometry">
@@ -10462,7 +10462,7 @@
           <mxGeometry y="156" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oPLp4W5H155VG4U1AXMo-7" value="&lt;b&gt;Object diagram:&amp;nbsp;&lt;/b&gt;scenariusz wyświetlenia grafiku pracy pracownika" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=220;height=40;" parent="1" vertex="1">
-          <mxGeometry x="-516" y="-1680" width="486" height="440" as="geometry" />
+          <mxGeometry x="-616" y="-1680" width="486" height="440" as="geometry" />
         </mxCell>
         <mxCell id="IpTN0ArYY8duDeKAY7Ix-255" value=": SerwerAPI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=17;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="oPLp4W5H155VG4U1AXMo-7">
           <mxGeometry x="20" y="180" width="210" height="57" as="geometry">

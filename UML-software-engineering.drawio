@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T00:06:04.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="J9OOioAo0OjkezL8NqwK" version="22.1.21" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-23T00:12:56.453Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LgPtE2OuOM1heXE8hn8G" version="22.1.21" type="github" pages="7">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="234" dy="2338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11782,7 +11782,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5BP24uvizFS6SdMH8Nuc" name="diagram deployment">
-    <mxGraphModel dx="2047" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1862" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12195,7 +12195,7 @@
           <mxGeometry x="780" y="135.74999999999994" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iKReRHwe56nsEdPJEE3b-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="JZyWmPeJ1KYz5r2JWU6_-3">
-          <mxGeometry x="760" y="180.74999999999994" width="190" height="8" as="geometry" />
+          <mxGeometry x="760" y="173.74999999999994" width="190" height="8" as="geometry" />
         </mxCell>
         <mxCell id="iKReRHwe56nsEdPJEE3b-4" value="«Annotation»&lt;br&gt;&lt;b&gt;kod zródłowy &lt;br&gt;programu komorkowego&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="JZyWmPeJ1KYz5r2JWU6_-3">
           <mxGeometry x="767.5" y="188.74999999999994" width="170" height="54" as="geometry" />
@@ -12218,7 +12218,7 @@
           <mxGeometry x="780" y="393" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iKReRHwe56nsEdPJEE3b-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="JZyWmPeJ1KYz5r2JWU6_-3">
-          <mxGeometry x="760" y="438" width="190" height="8" as="geometry" />
+          <mxGeometry x="760" y="428" width="190" height="8" as="geometry" />
         </mxCell>
         <mxCell id="iKReRHwe56nsEdPJEE3b-14" value="«Annotation»&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;kod zródłowy&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;programu stacjonarnego&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="JZyWmPeJ1KYz5r2JWU6_-3">
           <mxGeometry x="767.5" y="446" width="170" height="54" as="geometry" />

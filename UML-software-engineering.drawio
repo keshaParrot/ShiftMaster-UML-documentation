@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T18:04:03.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_wsJYt3RYYn7qU-ruR5W" version="22.1.21" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-24T18:44:05.845Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1PZ4SDkB3qbhvOL6ejvh" version="22.1.21" type="github" pages="7">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="-64" dy="2202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14051,7 +14051,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5BP24uvizFS6SdMH8Nuc" name="diagram deployment">
-    <mxGraphModel dx="3138" dy="627" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3553" dy="847" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14761,7 +14761,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vJPWJw9ZCw8gcuvsBw-j-58" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;flipH=1;" parent="vJPWJw9ZCw8gcuvsBw-j-10" vertex="1">
-          <mxGeometry x="190" y="342.75" width="400" height="312.25" as="geometry" />
+          <mxGeometry x="131" y="342.75" width="459" height="312.25" as="geometry" />
         </mxCell>
         <mxCell id="vJPWJw9ZCw8gcuvsBw-j-59" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;sprzęt autobusu&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="vJPWJw9ZCw8gcuvsBw-j-10" vertex="1">
           <mxGeometry x="330" y="357.75" width="120" height="30" as="geometry" />

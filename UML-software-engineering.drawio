@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T22:10:56.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="06KSQqO16ykDR8fbMAJY" version="23.0.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-26T22:19:55.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bCW7zdhCGL7LXHwLKfAA" version="23.0.2" type="github" pages="7">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="1247" dy="2439" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -787,7 +787,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2mY_eCErI83KwT0ppQRX" name="timing Diagram">
-    <mxGraphModel dx="7647" dy="2439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4306" dy="2797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2036,14 +2036,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1099.57" y="660" as="sourcePoint" />
             <mxPoint x="1099.57" y="630" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SDTvTpBTNQZ1E0ka9DZ6-2" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;«component»&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;dodaj dane&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;nowego pracownika&lt;/b&gt;&lt;br&gt;&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-5770" y="-1318" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="SDTvTpBTNQZ1E0ka9DZ6-3" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="SDTvTpBTNQZ1E0ka9DZ6-2" vertex="1">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S3VK1SY42EWDOW89t1Ka-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
@@ -12342,7 +12334,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o7K5dLYGhnCcQhvrCRS1" name="diagram obiektow">
-    <mxGraphModel dx="2573" dy="2699" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4494" dy="3678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

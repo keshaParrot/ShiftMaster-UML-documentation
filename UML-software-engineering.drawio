@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T23:30:44.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="q7-14pkasomqqt23m7e9" version="23.0.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-26T23:31:22.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Zdkf0i9jj-uwJXN_pJrI" version="23.0.2" type="github" pages="7">
   <diagram id="FutthXLo2xFBXXJAs2SV" name="use case diagrams">
     <mxGraphModel dx="-102" dy="2159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9364,7 +9364,7 @@
             <mxPoint x="520" y="180" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5DgHZpk03TrfHCfvAhwa-279" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;EmployeeFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="5DgHZpk03TrfHCfvAhwa-411" vertex="1" collapsed="1">
+        <mxCell id="5DgHZpk03TrfHCfvAhwa-279" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;EmployeeFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="5DgHZpk03TrfHCfvAhwa-411" vertex="1" collapsed="1">
           <mxGeometry x="350" y="210" width="130" height="40" as="geometry">
             <mxRectangle x="-4310" y="-1370" width="150" height="72" as="alternateBounds" />
           </mxGeometry>
@@ -9372,7 +9372,7 @@
         <mxCell id="5DgHZpk03TrfHCfvAhwa-281" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;createEmployee(String:&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;firstname,lastname):Employee&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5DgHZpk03TrfHCfvAhwa-279" vertex="1">
           <mxGeometry y="30" width="150" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="5DgHZpk03TrfHCfvAhwa-282" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;ShiftFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="5DgHZpk03TrfHCfvAhwa-411" vertex="1" collapsed="1">
+        <mxCell id="5DgHZpk03TrfHCfvAhwa-282" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;ShiftFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="5DgHZpk03TrfHCfvAhwa-411" vertex="1" collapsed="1">
           <mxGeometry x="360" y="280" width="150" height="40" as="geometry">
             <mxRectangle x="-4330" y="-780" width="160" height="64" as="alternateBounds" />
           </mxGeometry>
@@ -9383,7 +9383,7 @@
         <mxCell id="5DgHZpk03TrfHCfvAhwa-284" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="5DgHZpk03TrfHCfvAhwa-282" vertex="1">
           <mxGeometry y="56" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="5DgHZpk03TrfHCfvAhwa-285" value="SerwerAPI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="5DgHZpk03TrfHCfvAhwa-411" vertex="1" collapsed="1">
+        <mxCell id="5DgHZpk03TrfHCfvAhwa-285" value="SerwerAPI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="5DgHZpk03TrfHCfvAhwa-411" vertex="1" collapsed="1">
           <mxGeometry x="190" y="220" width="130" height="50" as="geometry">
             <mxRectangle x="-4810" y="-830" width="210" height="103" as="alternateBounds" />
           </mxGeometry>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-27T21:11:29.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="8AZCASbx2huPK7xow7Ca" version="24.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-28T00:41:57.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="cMiKA3I7tFw5CsHm57tV" version="24.3.1" type="github" pages="7">
   <diagram id="a6RP9atsSTx0-ovkpACS" name="Class diagram">
-    <mxGraphModel dx="1095" dy="2207" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2502" dy="3476" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -470,6 +470,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="5dHHj9aED39JGeM9f77J-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qvvy60ubJafvQQxziT8U-18" source="TfAdBB3yQc_VktFV6yib-91" target="TfAdBB3yQc_VktFV6yib-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TfAdBB3yQc_VktFV6yib-91" value="SensorInfoSender" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="qvvy60ubJafvQQxziT8U-18" vertex="1">
           <mxGeometry x="51" y="57" width="192" height="121" as="geometry" />
         </mxCell>
@@ -486,29 +489,21 @@
           <mxGeometry y="90" width="192" height="31" as="geometry" />
         </mxCell>
         <mxCell id="TfAdBB3yQc_VktFV6yib-100" value="Main" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="qvvy60ubJafvQQxziT8U-18" vertex="1">
-          <mxGeometry x="331" y="73" width="160" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="TfAdBB3yQc_VktFV6yib-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="qvvy60ubJafvQQxziT8U-18" source="TfAdBB3yQc_VktFV6yib-102" target="TfAdBB3yQc_VktFV6yib-91" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="262" y="170" />
-              <mxPoint x="262" y="170" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="320" y="71" width="160" height="33" as="geometry" />
         </mxCell>
         <mxCell id="TfAdBB3yQc_VktFV6yib-102" value="SensorsInfoCollector" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="qvvy60ubJafvQQxziT8U-18" vertex="1">
-          <mxGeometry x="315" y="141" width="216" height="117" as="geometry" />
+          <mxGeometry x="292" y="123" width="216" height="117" as="geometry" />
         </mxCell>
         <mxCell id="TfAdBB3yQc_VktFV6yib-107" value="+ collectAllData():Map&amp;lt;String,String&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TfAdBB3yQc_VktFV6yib-102" vertex="1">
           <mxGeometry y="26" width="216" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="SHvd3oU3q72HC-NUVdEp-1" value="- collectGPSData(): String[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TfAdBB3yQc_VktFV6yib-102">
+        <mxCell id="SHvd3oU3q72HC-NUVdEp-1" value="- collectGPSData(): String[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TfAdBB3yQc_VktFV6yib-102" vertex="1">
           <mxGeometry y="50" width="216" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="SHvd3oU3q72HC-NUVdEp-2" value="- collectTachographData(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TfAdBB3yQc_VktFV6yib-102">
+        <mxCell id="SHvd3oU3q72HC-NUVdEp-2" value="- collectTachographData(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TfAdBB3yQc_VktFV6yib-102" vertex="1">
           <mxGeometry y="72" width="216" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="SHvd3oU3q72HC-NUVdEp-4" value="- collectStationData(): String[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TfAdBB3yQc_VktFV6yib-102">
+        <mxCell id="SHvd3oU3q72HC-NUVdEp-4" value="- collectStationData(): String[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TfAdBB3yQc_VktFV6yib-102" vertex="1">
           <mxGeometry y="94" width="216" height="23" as="geometry" />
         </mxCell>
         <mxCell id="TfAdBB3yQc_VktFV6yib-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="qvvy60ubJafvQQxziT8U-18" source="TfAdBB3yQc_VktFV6yib-111" target="TfAdBB3yQc_VktFV6yib-102" edge="1">
@@ -533,9 +528,6 @@
         </mxCell>
         <mxCell id="TfAdBB3yQc_VktFV6yib-128" value="# getData(): Map&amp;lt;String,String&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TfAdBB3yQc_VktFV6yib-111" vertex="1">
           <mxGeometry y="92" width="192" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="TfAdBB3yQc_VktFV6yib-118" value="діаграма взагалі чорнова" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="551" y="-1883" width="148" height="96" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.8" pages="7">
   <diagram id="a6RP9atsSTx0-ovkpACS" name="Class diagram">
-    <mxGraphModel dx="7067" dy="2747" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7197" dy="2814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -536,7 +536,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Bvxkr-11FbY1SmOE0eGM-505" value="EmployeeService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Bvxkr-11FbY1SmOE0eGM-1" vertex="1">
-          <mxGeometry x="18" y="45.5" width="324" height="262" as="geometry" />
+          <mxGeometry x="18" y="45.5" width="324" height="296" as="geometry" />
         </mxCell>
         <mxCell id="Bvxkr-11FbY1SmOE0eGM-549" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getAll(departament:&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;String): Result&amp;lt;T:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;List&amp;lt;Employee&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Bvxkr-11FbY1SmOE0eGM-505" vertex="1">
           <mxGeometry y="26" width="324" height="34" as="geometry" />
@@ -544,23 +544,26 @@
         <mxCell id="twd62OntHOBMz_xwu2xV-72" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getAllActive(departament: String):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Result&amp;lt;T:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;List&amp;lt;Employee&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Bvxkr-11FbY1SmOE0eGM-505">
           <mxGeometry y="60" width="324" height="34" as="geometry" />
         </mxCell>
+        <mxCell id="twd62OntHOBMz_xwu2xV-87" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ isAvailableForWork(id: Long, startTime:String, endTime: String): boolean&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Bvxkr-11FbY1SmOE0eGM-505">
+          <mxGeometry y="94" width="324" height="34" as="geometry" />
+        </mxCell>
         <mxCell id="Bvxkr-11FbY1SmOE0eGM-506" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getById(&lt;span style=&quot;background-color: initial;&quot;&gt;departament: String,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id: Long, expectType: Class&amp;lt;T: Employee&amp;gt;):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Result&amp;lt;T: Employee&amp;gt;&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Bvxkr-11FbY1SmOE0eGM-505" vertex="1">
-          <mxGeometry y="94" width="324" height="32" as="geometry" />
+          <mxGeometry y="128" width="324" height="32" as="geometry" />
         </mxCell>
         <mxCell id="Bvxkr-11FbY1SmOE0eGM-586" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getByPasscode(&lt;span style=&quot;background-color: initial;&quot;&gt;departament: String,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id: Long, expectType:&amp;nbsp;&lt;/span&gt;Class&amp;lt;T: Employee&amp;gt;&lt;span style=&quot;background-color: initial;&quot;&gt;):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Result&amp;lt;T: Employee&amp;gt;&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Bvxkr-11FbY1SmOE0eGM-505" vertex="1">
-          <mxGeometry y="126" width="324" height="32" as="geometry" />
+          <mxGeometry y="160" width="324" height="32" as="geometry" />
         </mxCell>
         <mxCell id="-fwO_enEdVFVMJQZQ5iw-24" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getByFullName(FullName&lt;span style=&quot;background-color: initial;&quot;&gt;: String,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id: Long, expectType:&amp;nbsp;&lt;/span&gt;Class&amp;lt;T: Employee&amp;gt;&lt;span style=&quot;background-color: initial;&quot;&gt;):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Result&amp;lt;T: Employee&amp;gt;&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Bvxkr-11FbY1SmOE0eGM-505" vertex="1">
-          <mxGeometry y="158" width="324" height="32" as="geometry" />
+          <mxGeometry y="192" width="324" height="32" as="geometry" />
         </mxCell>
         <mxCell id="Bvxkr-11FbY1SmOE0eGM-507" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getByPesel(&lt;span style=&quot;background-color: initial;&quot;&gt;departament: String&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, pesel: String&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): Result&amp;lt;T: Employee&amp;gt;&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Bvxkr-11FbY1SmOE0eGM-505" vertex="1">
-          <mxGeometry y="190" width="324" height="32" as="geometry" />
+          <mxGeometry y="224" width="324" height="32" as="geometry" />
         </mxCell>
         <mxCell id="EewDyeIzky56VcqUwnLp-1" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ changeAuthData(id: Long): boolean&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Bvxkr-11FbY1SmOE0eGM-505" vertex="1">
-          <mxGeometry y="222" width="324" height="20" as="geometry" />
+          <mxGeometry y="256" width="324" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EewDyeIzky56VcqUwnLp-2" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ generateNewPasscode(id: Long): boolean&lt;br&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Bvxkr-11FbY1SmOE0eGM-505" vertex="1">
-          <mxGeometry y="242" width="324" height="20" as="geometry" />
+          <mxGeometry y="276" width="324" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Bvxkr-11FbY1SmOE0eGM-124" value="&lt;b&gt;CD&lt;/b&gt;: Work Shift Module" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=151;height=35;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-5760" y="-1163" width="853" height="483" as="geometry" />

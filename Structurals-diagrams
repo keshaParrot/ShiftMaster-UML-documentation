@@ -376,8 +376,8 @@
         <mxCell id="twd62OntHOBMz_xwu2xV-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Bvxkr-11FbY1SmOE0eGM-1" source="Bvxkr-11FbY1SmOE0eGM-490" target="Bvxkr-11FbY1SmOE0eGM-500">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="456" y="338" />
-              <mxPoint x="304" y="338" />
+              <mxPoint x="431" y="355" />
+              <mxPoint x="304" y="355" />
             </Array>
           </mxGeometry>
         </mxCell>

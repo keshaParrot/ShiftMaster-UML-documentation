@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.8" pages="7">
   <diagram id="a6RP9atsSTx0-ovkpACS" name="Class diagram">
-    <mxGraphModel dx="7197" dy="2814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7995" dy="3022" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1296,10 +1296,25 @@
           <mxGeometry y="158" width="257" height="32" as="geometry" />
         </mxCell>
         <mxCell id="twd62OntHOBMz_xwu2xV-81" value="WorkScheduleCleanerService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6365" y="-1169" width="248" height="58" as="geometry" />
+          <mxGeometry x="-6365" y="-1169" width="248" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="twd62OntHOBMz_xwu2xV-85" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;- generateHashOfShifts(&lt;span style=&quot;background-color: initial;&quot;&gt;employee: Employee&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;): String&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="twd62OntHOBMz_xwu2xV-81">
-          <mxGeometry y="26" width="248" height="32" as="geometry" />
+        <mxCell id="twd62OntHOBMz_xwu2xV-89" value="&lt;span class=&quot;hljs-title function_&quot;&gt;+ cleanupOldShift&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(); void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="twd62OntHOBMz_xwu2xV-81">
+          <mxGeometry y="26" width="248" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="twd62OntHOBMz_xwu2xV-90" value="WorkScheduleArchiveService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6407" y="-1025" width="211" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="twd62OntHOBMz_xwu2xV-91" value="&lt;span class=&quot;hljs-title function_&quot;&gt;+ archiveShift&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(); void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="twd62OntHOBMz_xwu2xV-90">
+          <mxGeometry y="26" width="211" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="twd62OntHOBMz_xwu2xV-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="twd62OntHOBMz_xwu2xV-92" target="twd62OntHOBMz_xwu2xV-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="twd62OntHOBMz_xwu2xV-92" value="clean all old shifts which are oldest than 2 monts" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=12;" vertex="1" parent="1">
+          <mxGeometry x="-6514" y="-1195.5" width="111" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="twd62OntHOBMz_xwu2xV-97" value="сервіс буде викликати потрібний ендпоінт в сервісі рапортів і передавати данні архіву, той сервіс буде робити свой справи а потім повертати статус, якшо ок, то споко, якшо ні, то спроба буде повторюватись" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;size=44;position=0.56;base=94;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-6707" y="-1128" width="311" height="118" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

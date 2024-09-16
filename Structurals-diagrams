@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14" pages="7">
   <diagram id="a6RP9atsSTx0-ovkpACS" name="Class diagram">
-    <mxGraphModel dx="6683" dy="2755" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8049" dy="3466" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -594,7 +594,7 @@
           <mxGeometry y="33" width="159" height="103" as="geometry" />
         </mxCell>
         <mxCell id="Bvxkr-11FbY1SmOE0eGM-124" value="&lt;b&gt;CD&lt;/b&gt;: Work Shift Module" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=151;height=35;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-5735" y="-1197" width="735" height="518" as="geometry" />
+          <mxGeometry x="-5708" y="-1198" width="735" height="518" as="geometry" />
         </mxCell>
         <mxCell id="Bvxkr-11FbY1SmOE0eGM-617" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Bvxkr-11FbY1SmOE0eGM-124" source="Bvxkr-11FbY1SmOE0eGM-587" target="twd62OntHOBMz_xwu2xV-76" edge="1">
           <mxGeometry relative="1" as="geometry">

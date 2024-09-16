@@ -705,7 +705,7 @@
           <mxGeometry y="30" width="146" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Bvxkr-11FbY1SmOE0eGM-606" value="Station" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=46;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Bvxkr-11FbY1SmOE0eGM-124" vertex="1" collapsed="1">
-          <mxGeometry x="241.25000000000003" y="247" width="132.06" height="46" as="geometry">
+          <mxGeometry x="241.25000000000003" y="234" width="132.06" height="46" as="geometry">
             <mxRectangle x="490.94" y="133" width="135.12" height="124" as="alternateBounds" />
           </mxGeometry>
         </mxCell>

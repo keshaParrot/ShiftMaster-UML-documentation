@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14" pages="7">
   <diagram id="a6RP9atsSTx0-ovkpACS" name="Class diagram">
-    <mxGraphModel dx="10097" dy="4531" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8607" dy="3356" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1386,8 +1386,8 @@
         <mxCell id="twd62OntHOBMz_xwu2xV-170" value="clean all old shifts which are oldest than 2 week" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=12;" parent="Bvxkr-11FbY1SmOE0eGM-533" vertex="1">
           <mxGeometry x="262" y="226" width="111" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="Bvxkr-11FbY1SmOE0eGM-640" value="&lt;b&gt;CD&lt;/b&gt;: Security Module" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=151;height=35;" parent="1" vertex="1">
-          <mxGeometry x="-2086" y="-2035" width="603" height="415" as="geometry" />
+        <mxCell id="Bvxkr-11FbY1SmOE0eGM-640" value="&lt;b&gt;CD&lt;/b&gt;: Api Gateway" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=151;height=35;" parent="1" vertex="1">
+          <mxGeometry x="-4984" y="-355" width="603" height="415" as="geometry" />
         </mxCell>
         <mxCell id="Bvxkr-11FbY1SmOE0eGM-629" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;endSize=15;" parent="Bvxkr-11FbY1SmOE0eGM-640" source="Bvxkr-11FbY1SmOE0eGM-630" target="Bvxkr-11FbY1SmOE0eGM-632" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1426,9 +1426,6 @@
         </mxCell>
         <mxCell id="Bvxkr-11FbY1SmOE0eGM-639" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Bvxkr-11FbY1SmOE0eGM-640" vertex="1">
           <mxGeometry x="238" y="64.57000000000016" width="24" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="Bvxkr-11FbY1SmOE0eGM-741" value="потрібно приготувати відповідно до потреб проекту, також треба додати аутентифікацію" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;fillColor=#f8cecc;strokeColor=#b85450;base=55;" parent="1" vertex="1">
-          <mxGeometry x="-1968" y="-2121" width="165" height="103" as="geometry" />
         </mxCell>
         <mxCell id="-fwO_enEdVFVMJQZQ5iw-7" value="&lt;b&gt;CD&lt;/b&gt;: app-utils" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=151;height=35;" parent="1" vertex="1">
           <mxGeometry x="-4414" y="-1198" width="568" height="381" as="geometry" />
